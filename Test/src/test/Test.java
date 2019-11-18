@@ -1,10 +1,8 @@
 package test;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Objects;
 
 public class Test {
  
@@ -24,6 +22,7 @@ public class Test {
 	    list.add("1");
 	    list.add("4");
 	    list.add("4");
+	    //////////
 	    
 	  list=new ArrayList<String>(new HashSet<String>(list));
 	    
